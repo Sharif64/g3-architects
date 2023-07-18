@@ -74,7 +74,7 @@ nav li a {
     justify-content: center;
 }
 
-.banner-content-container{
+.banner-content-container {
     margin-bottom: 50px;
 }
 
@@ -102,7 +102,7 @@ nav li a {
 
 #btn-width {
     margin-left: 300px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .banner-img {
@@ -151,25 +151,68 @@ nav li a {
     font-weight: 400;
 }
 
+/* facts section */
+.facts-container {
+    padding-top: 150px;
+}
+
+.facts-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.facts-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    width: 542px;
+    margin-bottom: 100px;
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+}
+
+.card-container .card {
+    text-align: center;
+    padding: 30px 50px;
+}
+
+.card .card-stat {
+    margin-top: 10px;
+}
+
 /* design for mobile and small devices */
 @media screen and (max-width: 576px) {
 
-    *{
-        width:100%;
+    * {
+        width: 100%;
     }
+
     nav {
         flex-direction: column;
         padding: 30px;
     }
 
-    .nav-list{
+    .nav-list {
         width: 100%;
     }
 
     .banner-content {
         width: 100%;
     }
-    #btn-width{
+
+    #btn-width {
         margin-left: 170px;
     }
 
@@ -182,28 +225,29 @@ nav li a {
         padding: 0px;
     }
 
-    .teams{
+    .teams {
         flex-direction: column;
     }
 
-    .teams-img{
-        display:flex;
+    .teams-img {
+        display: flex;
         flex-direction: column;
     }
 }
 
 /* design for pad and medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
-    .banner-description{
+    .banner-description {
         width: 90%;
         padding-left: 30px;
     }
+
     nav {
         flex-direction: column;
         padding: 50px;
     }
 
-    #btn-width{
+    #btn-width {
         margin-left: 200px;
     }
 
@@ -212,11 +256,11 @@ nav li a {
         height: auto;
     }
 
-    .teams{
+    .teams {
         flex-direction: column;
     }
 
-    .team-description{
+    .team-description {
         padding-top: 40px;
         text-align: center;
     }
