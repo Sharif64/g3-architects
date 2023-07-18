@@ -192,6 +192,48 @@ nav li a {
     margin-top: 10px;
 }
 
+/* sponsors section */
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsors-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsors-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsors-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer section */
+
+.footer-des {
+    color: #424242;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 130px;
+    padding: 35px 140px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    width:1440px;
+    height: 100px;
+    margin: 130px 240px;
+}
+
 /* design for mobile and small devices */
 @media screen and (max-width: 576px) {
 
